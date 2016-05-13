@@ -1,0 +1,31 @@
+{
+  "name": "dom-lite",
+  "version": "1.0.0",
+  "description": "an unamed view framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./test/test-helper.js --recursive",
+    "test:watch": "npm run test -- -- watch"
+  },
+  "author": "Jordan Hurt",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.7.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-register": "^6.7.2",
+    "chai": "^3.5.0",
+    "chai-dom": "^1.4.0",
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "jsdom": "^8.3.0",
+    "mocha": "^2.4.5",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "is-array": "^1.0.1",
+    "is-object": "^1.0.1",
+    "lodash": "^4.11.1"
+  }
+}
